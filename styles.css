@@ -1,1 +1,104 @@
 /* your code here */
+*{ 
+	padding:0px;
+	margin:0px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+body{
+	background:green;
+	
+}
+.product{
+	background:lightgreen;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:white;
+	padding-inline:20px;
+	width:400px;
+	height:375px;
+	margin:50px 0px 0px 150px;
+	padding-right:1px;
+}
+.photo-container{
+	display:flex;
+	flex-direction: column;
+	width:200px;
+	margin-left:-50px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+}
+.photo-main{
+	background:lightgreen;
+}
+.photo-album > ul {
+	display:flex;
+	list-style:none;
+}
+.photo-main > img{
+	width:200px;
+	margin-left:-50px;
+	
+}
+.photo-album{
+	padding:10px;
+	background:white;
+}
+.photo-album > ul > li > img{
+	width:30px;
+	margin-inline:5px;
+	border:1px solid gray;
+}
+.second-ul{
+	display:flex;
+	list-style:none;
+}
+.second-ul>li>img{
+	width:30px;
+	margin:15px 0px 15px 5px;
+}
+.product__info{
+	display:flex;
+	flex-direction: column;
+	margin-left:-170px;
+}
+.title>h1{
+	font-size:20px;
+}
+.title>span{
+	margin-top:0px;
+	font-size:10px;
+	 color:lightgray;
+}
+.price{
+	color:red;
+	font-size:30px;
+	margin:20px;
+}
+.variant>h3{
+   color:gray;
+	font-size:10px;
+}
+.description>h3{
+	   color:gray;
+	font-size:10px;
+
+}
+.description>ul{
+	margin-left:20px
+}
+.description>ul>li{
+	font-size:12px;
+	margin:8px
+	
+}
+.btn>button{
+	background:red;
+	color:white;
+	padding:10px;
+	border-radius:5px;
+	border-color:transparent;
+}
